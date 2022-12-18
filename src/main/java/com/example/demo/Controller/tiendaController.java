@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/tienda")
-@CrossOrigin(origins ="*")
+@CrossOrigin(origins ="https://fronttienda.azurewebsites.net/")
 public class tiendaController {
 
     //@Autowired
